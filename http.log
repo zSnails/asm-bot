@@ -1,73 +1,149 @@
-HTTP_SEND_GET [USER_AGENT] - 2024-02-8T01:48:58.458Z - https://discord.com/api/v10/users/@me
+HTTP_SEND_GET [USER_AGENT] - 2024-02-8T01:57:34.857Z - https://discord.com/api/v10/users/@me
 User-Agent: Cogmasters (https://github.com/Cogmasters)
 Authorization: <<REDACTED>>
 
 @@@_1_@@@
-HTTP_RCV_OK(200) [USER_AGENT] - 2024-02-8T01:48:58.757Z - https://discord.com/api/v10/users/@me
-date: Thu, 08 Feb 2024 01:48:58 GMT
+HTTP_RCV_OK(200) [USER_AGENT] - 2024-02-8T01:57:35.095Z - https://discord.com/api/v10/users/@me
+date: Thu, 08 Feb 2024 01:57:35 GMT
 content-type: application/json
-set-cookie: __dcfduid=39dfca5ac62411eeb7227e99735896a1; Expires=Tue, 06-Feb-2029 01:48:58 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __dcfduid=6da3b224c62511ee9ccad208d3c6bc82; Expires=Tue, 06-Feb-2029 01:57:35 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-ratelimit-bucket: 78bb8553d9352a5a2f89f9def401287a
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
-x-ratelimit-reset: 1707356938.669
+x-ratelimit-reset: 1707357455.047
 x-ratelimit-reset-after: 0.001
 vary: Accept-Encoding
 via: 1.1 google
 alt-svc: h3=":443"; ma=86400
 cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5emT6G3B8gv7XTEiLltKOBpGY0A%2BIYluKa91dtv6wwnMdzngUGmKvCvHfLgEGzgXyWdirTP2RjYarwFKoKJ0TmODXVsifO7LL4a5eyZ9swwQHt7oUDg%2BikhbPgaT"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FoBA9TNsYTcVTFPQoKZUZFG%2BlHMxtWlgfeAD95sM57775tKLkYVRhGy3o1Um%2BYixvRD1rFyVHpSsZOe4P%2FIOMB81utmuo5RLPXhHCVY%2B3oT1xN693jeMrUP6s5YU"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 x-content-type-options: nosniff
 content-security-policy: frame-ancestors 'none'; default-src 'none'
-set-cookie: __sdcfduid=39dfca5ac62411eeb7227e99735896a1294c6916e354b98759b410f02e8b2f3c116862d58e1734712df889ad15116fa6; Expires=Tue, 06-Feb-2029 01:48:58 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
-set-cookie: __cfruid=6a7ad143e246c808dcb3ab31c198278b53daddd4-1707356938; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
-set-cookie: _cfuvid=T.YG0jlYB4XI2sOjDHZnqYovET9GRPN5vNr1DO_evj4-1707356938754-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+set-cookie: __sdcfduid=6da3b224c62511ee9ccad208d3c6bc822335b557e3d5eb596cbd7c3c6f78bc400242c9e3adcd999e105495add1c991e3; Expires=Tue, 06-Feb-2029 01:57:35 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __cfruid=4f395238fc521ad8b874c93c823f46b1085947c7-1707357455; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=K4cF4MQtwqlMPVW2o7IFVW3_dOBWAIV2f7oNOMZHQv4-1707357455093-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 852036a22b2568be-SJO
+cf-ray: 8520433d9a5468ba-SJO
 
 {"id":"1203492370004451438","username":"ASM BOT","avatar":null,"discriminator":"2390","public_flags":0,"premium_type":0,"flags":0,"bot":true,"banner":null,"accent_color":null,"global_name":null,"avatar_decoration_data":null,"banner_color":null,"mfa_enabled":true,"locale":"en-US","email":null,"verified":true,"bio":""}
 
 @@@_2_@@@
-HTTP_SEND_GET [USER_AGENT] - 2024-02-8T01:48:58.757Z - https://discord.com/api/v10/gateway/bot
+HTTP_SEND_GET [USER_AGENT] - 2024-02-8T01:57:35.095Z - https://discord.com/api/v10/gateway/bot
 User-Agent: Cogmasters (https://github.com/Cogmasters)
 Authorization: <<REDACTED>>
 
 @@@_3_@@@
-HTTP_RCV_OK(200) [USER_AGENT] - 2024-02-8T01:48:58.873Z - https://discord.com/api/v10/gateway/bot
-date: Thu, 08 Feb 2024 01:48:58 GMT
+HTTP_RCV_OK(200) [USER_AGENT] - 2024-02-8T01:57:36.187Z - https://discord.com/api/v10/gateway/bot
+date: Thu, 08 Feb 2024 01:57:36 GMT
 content-type: application/json
-set-cookie: __dcfduid=39f28686c62411eebcaf0a4a1d6e7865; Expires=Tue, 06-Feb-2029 01:48:58 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __dcfduid=6e497be6c62511ee9849c231fbe6e22b; Expires=Tue, 06-Feb-2029 01:57:36 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-ratelimit-bucket: 41f9cd5d28af77da04563bcb1d67fdfd
 x-ratelimit-limit: 2
 x-ratelimit-remaining: 1
-x-ratelimit-reset: 1707356943.831
+x-ratelimit-reset: 1707357461.107
 x-ratelimit-reset-after: 5.000
 vary: Accept-Encoding
 via: 1.1 google
 alt-svc: h3=":443"; ma=86400
 cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K9q0eo55sbw7R71PgbHt85F8AW%2FURthRC1eo51e27ZTeOzLZ1W68oD7R9mR8RMeWXGFR4DXeYm8Mdep4yc3spPxKTvSglF1zGfKSIRh%2BrFPv3n2zr5z9R7n97OxL"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I%2BxpUs3AXmZHvNsV62PRJuv5uyQDLG%2BbBdqghc9cymccJSFps%2FGoCytSpd3PkbZOqirkxmY2%2BvlooWUIidsbyhURjuW0bn%2FEot7JuM5OAfPPoBgTUUuPzavlvQ4h"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 x-content-type-options: nosniff
 content-security-policy: frame-ancestors 'none'; default-src 'none'
-set-cookie: __sdcfduid=39f28686c62411eebcaf0a4a1d6e7865af05661e3eb83f78c1bd72ef8862d64e616923a523ade66e6a6b979755fa2fa0; Expires=Tue, 06-Feb-2029 01:48:58 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
-set-cookie: __cfruid=6a7ad143e246c808dcb3ab31c198278b53daddd4-1707356938; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
-set-cookie: _cfuvid=QRH4KrpLDsXtLV0HH8lVpxj3usf6X94ucYKbmax6QFY-1707356938871-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+set-cookie: __sdcfduid=6e497be6c62511ee9849c231fbe6e22b62134f4b898a124de248779faf997b524f2260eb44cbe6fb0eac3bb6a66ddf87; Expires=Tue, 06-Feb-2029 01:57:36 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __cfruid=6dc4e0b24327de6abb35d9c8b2d84a085437f550-1707357456; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=1hCqeW3Zy1aqFlDJk2abDxij.p3Hp.2tHSdkHptg8oU-1707357456184-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 852036a35be568be-SJO
+cf-ray: 8520433e6ac768ba-SJO
 
-{"url":"wss://gateway.discord.gg","session_start_limit":{"max_concurrency":1,"remaining":997,"reset_after":86169113,"total":1000},"shards":1}
+{"url":"wss://gateway.discord.gg","session_start_limit":{"max_concurrency":1,"remaining":999,"reset_after":86344810,"total":1000},"shards":1}
 
 @@@_4_@@@
-WS_RCV_CONNECT [WEBSOCKETS] - 2024-02-8T01:48:59.164Z - wss://gateway.discord.gg/?v=10&encoding=json
+WS_RCV_CONNECT [WEBSOCKETS] - 2024-02-8T01:57:36.484Z - wss://gateway.discord.gg/?v=10&encoding=json
 
 @@@_5_@@@
-WS_RCV_TEXT [WEBSOCKETS] - 2024-02-8T01:48:59.164Z - wss://gateway.discord.gg/?v=10&encoding=json
-{"t":null,"s":null,"op":10,"d":{"heartbeat_interval":41250,"_trace":["[\"gateway-prd-us-east1-b-v03j\",{\"micros\":0.0}]"]}}
+WS_RCV_TEXT [WEBSOCKETS] - 2024-02-8T01:57:36.484Z - wss://gateway.discord.gg/?v=10&encoding=json
+{"t":null,"s":null,"op":10,"d":{"heartbeat_interval":41250,"_trace":["[\"gateway-prd-us-east1-d-dwhh\",{\"micros\":0.0}]"]}}
 @@@_6_@@@
-WS_SEND_TEXT [WEBSOCKETS] - 2024-02-8T01:48:59.164Z - wss://gateway.discord.gg/?v=10&encoding=json
-{"op":2,"d":{"token":"MTIwMzQ5MjM3MDAwNDQ1MTQzOA.G4KwCy.6d2xSPKlY30uWm1XPY0A3s5rA5aw-ngo3W70Lg","properties":{"os":"GNU/Linux","browser":"concord","device":"concord"},"compress":false,"large_threshold":0,"presence":{"status":"online","since":"2024-02-8T01:48:58.458Z","afk":false},"intents":"0"}}
+WS_SEND_TEXT [WEBSOCKETS] - 2024-02-8T01:57:36.484Z - wss://gateway.discord.gg/?v=10&encoding=json
+{"op":2,"d":{"token":"MTIwMzQ5MjM3MDAwNDQ1MTQzOA.GVjnj0.k59wIOgPm9NmCAiO3gDvB1yLVvkVmY3ysfiPYQ","properties":{"os":"GNU/Linux","browser":"concord","device":"concord"},"compress":false,"large_threshold":0,"presence":{"status":"online","since":"2024-02-8T01:57:34.856Z","afk":false},"intents":"0"}}
 @@@_7_@@@
+WS_RCV_TEXT [WEBSOCKETS] - 2024-02-8T01:57:36.671Z - wss://gateway.discord.gg/?v=10&encoding=json
+{"t":"READY","s":1,"op":0,"d":{"v":10,"user_settings":{},"user":{"verified":true,"username":"ASM BOT","mfa_enabled":true,"id":"1203492370004451438","global_name":null,"flags":0,"email":null,"discriminator":"2390","bot":true,"avatar":null},"session_type":"normal","session_id":"0e589906e77f410c332148dfc61562d9","resume_gateway_url":"wss://gateway-us-east1-d.discord.gg","relationships":[],"private_channels":[],"presences":[],"guilds":[{"unavailable":true,"id":"560568593188651015"}],"guild_join_requests":[],"geo_ordered_rtc_regions":["atlanta","us-south","us-east","newark","us-central"],"current_location":["CR","CR:A"],"auth":{},"application":{"id":"1203492370004451438","flags":0},"_trace":["[\"gateway-prd-us-east1-d-dwhh\",{\"micros\":118412,\"calls\":[\"id_created\",{\"micros\":1281,\"calls\":[]},\"session_lookup_time\",{\"micros\":395,\"calls\":[]},\"session_lookup_finished\",{\"micros\":11,\"calls\":[]},\"discord-sessions-prd-2-171\",{\"micros\":115895,\"calls\":[\"start_session\",{\"micros\":87337,\"calls\":[\"discord-api-c6f64db87-9xlvs\",{\"micros\":81739,\"calls\":[\"get_user\",{\"micros\":18159},\"get_guilds\",{\"micros\":7899},\"send_scheduled_deletion_message\",{\"micros\":11},\"guild_join_requests\",{\"micros\":1},\"authorized_ip_coro\",{\"micros\":10}]}]},\"starting_guild_connect\",{\"micros\":91,\"calls\":[]},\"presence_started\",{\"micros\":7368,\"calls\":[]},\"guilds_started\",{\"micros\":77,\"calls\":[]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":20967,\"calls\":[]},\"connect_finished\",{\"micros\":20973,\"calls\":[]},\"build_ready\",{\"micros\":19,\"calls\":[]},\"clean_ready\",{\"micros\":27,\"calls\":[]},\"optimize_ready\",{\"micros\":1,\"calls\":[]},\"split_ready\",{\"micros\":1,\"calls\":[]}]}]}]"]}}
+@@@_8_@@@
+WS_SEND_TEXT [WEBSOCKETS] - 2024-02-8T01:57:36.671Z - wss://gateway.discord.gg/?v=10&encoding=json
+{"op":1,"d":1}
+@@@_9_@@@
+HTTP_SEND_POST [USER_AGENT] - 2024-02-8T01:57:36.671Z - https://discord.com/api/v10/applications/1203492370004451438/guilds/560568593188651015/commands
+User-Agent: Cogmasters (https://github.com/Cogmasters)
+Authorization: <<REDACTED>>
+Content-Type: application/json
+{"name":"ping","description":"basic ping command","dm_permission":false,"default_permission":false}
+@@@_10_@@@
+WS_RCV_TEXT [WEBSOCKETS] - 2024-02-8T01:57:36.738Z - wss://gateway.discord.gg/?v=10&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_11_@@@
+HTTP_RCV_OK(200) [USER_AGENT] - 2024-02-8T01:57:36.849Z - https://discord.com/api/v10/applications/1203492370004451438/guilds/560568593188651015/commands
+date: Thu, 08 Feb 2024 01:57:36 GMT
+content-type: application/json
+set-cookie: __dcfduid=6eaf3ff8c62511ee91522255efe07093; Expires=Tue, 06-Feb-2029 01:57:36 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: d9825c191970ead7c158a4c613b27ce7
+x-ratelimit-limit: 5
+x-ratelimit-remaining: 4
+x-ratelimit-reset: 1707357460.776
+x-ratelimit-reset-after: 4.000
+vary: Accept-Encoding
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q12luT3bLsXHFKQVIBFazib0OEhfP%2FaZ3nSAdJbeDVhA193r4QMyzdj4%2BytbvCPUo8fMIWKeyLYlNfHdr5f6jIKOZ99sZnvhfa8qZfwI3TqPPeiEde8vBppM8D2Y"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+content-security-policy: frame-ancestors 'none'; default-src 'none'
+set-cookie: __sdcfduid=6eaf3ff8c62511ee91522255efe07093a31fc04e2e3005e8e5f78262cb7365af8c1097ff64bc4c75286c11cb9704ddcb; Expires=Tue, 06-Feb-2029 01:57:36 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __cfruid=6dc4e0b24327de6abb35d9c8b2d84a085437f550-1707357456; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=QtGi2aPEGnhECUl45jIC15IAr9d30D.XMyGyOqBVIJI-1707357456849-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 852043484fad68ba-SJO
+
+{"id":"1203538477526945813","application_id":"1203492370004451438","version":"1203538477526945814","default_member_permissions":null,"type":1,"name":"ping","name_localizations":null,"description":"basic ping command","description_localizations":null,"guild_id":"560568593188651015","nsfw":false}
+
+@@@_12_@@@
+WS_RCV_TEXT [WEBSOCKETS] - 2024-02-8T01:57:39.303Z - wss://gateway.discord.gg/?v=10&encoding=json
+{"t":"INTERACTION_CREATE","s":2,"op":0,"d":{"version":1,"type":2,"token":"aW50ZXJhY3Rpb246MTIwNDk2OTI2MTUzNDAxOTYxNDo4T1pqaG45MjNxbndTbVlwczJ3TkFZa3U5UTVxNEgxQzhpbWtQa3FUenBPMmJYdFBGOFBtRVdxWDRkR2Y1dVdoSlZ0cldxZnhTbTNJVkVWa3NZWnhGVFA3QjNCWFNiTlBPczB2UGxoS0FNUDRjUTNveDlycWMzV29mWHdVWXlPRw","member":{"user":{"username":"zsnails","public_flags":131648,"id":"325079232588021770","global_name":"zSnails","discriminator":"0","avatar_decoration_data":null,"avatar":"d9b420726f0b55eb7587a8692928ac8d"},"unusual_dm_activity_until":null,"roles":["560640607568134184"],"premium_since":null,"permissions":"562949953421311","pending":false,"nick":null,"mute":false,"joined_at":"2019-03-27T20:59:27.529000+00:00","flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"locale":"es-ES","id":"1204969261534019614","guild_locale":"en-US","guild_id":"560568593188651015","guild":{"locale":"en-US","id":"560568593188651015","features":["COMMUNITY","NEWS"]},"entitlements":[],"entitlement_sku_ids":[],"data":{"type":1,"name":"ping","id":"1203538477526945813","guild_id":"560568593188651015"},"channel_id":"560641085483778048","channel":{"type":0,"topic":null,"rate_limit_per_user":0,"position":3,"permissions":"562949953421311","parent_id":"560568593188651017","nsfw":false,"name":"support","last_message_id":"1204969057879851051","id":"560641085483778048","guild_id":"560568593188651015","flags":0},"application_id":"1203492370004451438","app_permissions":"562949953421311"}}
+@@@_13_@@@
+HTTP_SEND_POST [USER_AGENT] - 2024-02-8T01:57:39.303Z - https://discord.com/api/v10/interactions/1204969261534019614/aW50ZXJhY3Rpb246MTIwNDk2OTI2MTUzNDAxOTYxNDo4T1pqaG45MjNxbndTbVlwczJ3TkFZa3U5UTVxNEgxQzhpbWtQa3FUenBPMmJYdFBGOFBtRVdxWDRkR2Y1dVdoSlZ0cldxZnhTbTNJVkVWa3NZWnhGVFA3QjNCWFNiTlBPczB2UGxoS0FNUDRjUTNveDlycWMzV29mWHdVWXlPRw/callback
+User-Agent: Cogmasters (https://github.com/Cogmasters)
+Authorization: <<REDACTED>>
+Content-Type: application/json
+{"type":4,"data":{"content":"Pong!","choices":[],"custom_id":"","title":""}}
+@@@_14_@@@
+HTTP_RCV_NO_CONTENT(204) [USER_AGENT] - 2024-02-8T01:57:39.707Z - https://discord.com/api/v10/interactions/1204969261534019614/aW50ZXJhY3Rpb246MTIwNDk2OTI2MTUzNDAxOTYxNDo4T1pqaG45MjNxbndTbVlwczJ3TkFZa3U5UTVxNEgxQzhpbWtQa3FUenBPMmJYdFBGOFBtRVdxWDRkR2Y1dVdoSlZ0cldxZnhTbTNJVkVWa3NZWnhGVFA3QjNCWFNiTlBPczB2UGxoS0FNUDRjUTNveDlycWMzV29mWHdVWXlPRw/callback
+date: Thu, 08 Feb 2024 01:57:39 GMT
+content-type: text/html; charset=utf-8
+set-cookie: __dcfduid=70631e6ec62511eea582721454a05a4a; Expires=Tue, 06-Feb-2029 01:57:39 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: 432f6223265d156004ac81366c5a948f
+x-ratelimit-limit: 5
+x-ratelimit-remaining: 4
+x-ratelimit-reset: 1707357459.590
+x-ratelimit-reset-after: 0.200
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y652no3rZI0F6D3VOhEOXvX2WaC9KrdxgOFhVzwJnpcarYis9zxbDLh%2BaJhz8B2QchZXFi7RWqpYNAj2wdNXKeljO5wOWxFwsedvvBEQFw5xRjO5IaU1XofdE9K%2F"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+content-security-policy: frame-ancestors 'none'; default-src 'none'
+set-cookie: __sdcfduid=70631e6ec62511eea582721454a05a4a7f572e5d66b1fd9ad751aeb692b315c9c4a9ab37c3400ee0bed99b275ac732fc; Expires=Tue, 06-Feb-2029 01:57:39 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __cfruid=e6287418102aa417adc494e12ffa7994be77a949-1707357459; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=lnD_x1CyQnrq57Kbg8O_b_TM.suyNSj29zBEzVl09Ds-1707357459705-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 85204358c8ab68ba-SJO
+
+
+@@@_15_@@@

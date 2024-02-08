@@ -20,9 +20,7 @@ _start:
 
     mov edi, config_file
     call discord_config_init
-    mov [client], rax
-    mov rdi, [client] ; The following functions all take the client as the
-                      ; first argument.
+    mov rdi, rax
 
     mov esi, on_ready
     call discord_set_on_ready;(rdi, esi)
@@ -32,7 +30,6 @@ _start:
 
     call discord_run
 
-    mov rdi, [client]
     call discord_cleanup;(rdi)
     call ccord_global_cleanup
 
@@ -111,7 +108,6 @@ on_interaction__return:
     ret
 
 section .data
-client: dq 0
 config_file: db "config.json", 0
 bot_on: db "The bot is online!", 10
 got_interaction: db "Got an interaction!", 10
