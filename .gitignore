@@ -3,3 +3,4 @@ concord
 asm.bot
 *.json
 .env
+*.log
