@@ -1,3 +1,5 @@
 concord
 *.o
 asm.bot
+*.json
+.env
