@@ -16,7 +16,7 @@ $(OUTPUT): $(ASMOBJS) $(COBJS)
 
 .PHONY: clean
 clean:
-	@rm -f $(OBJS) $(OUTPUT)
+	@rm -f $(ASMOBJS) $(COBJS) $(OUTPUT)
 
 .PHONY: run
 run:
