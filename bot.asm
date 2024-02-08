@@ -2,6 +2,8 @@
 global _start
 section .text
 
+%define SLASH_COMMAND 2
+
 extern discord_config_init
 extern discord_run
 extern discord_set_on_ready
@@ -77,11 +79,16 @@ on_interaction: ; This takes in 2 pointers
     mov [rbp-8], rdi 
     mov [rbp-16], rsi ; This is the discord_interaction event
 
-    cmp qword [rsi+16], 2
-    jne on_interaction__return
+    cmp qword [rsi+16], SLASH_COMMAND
+    jne on_interaction__return ; This will skip if the interaction was not a slash command
+                               ; the constant 2 refers to the slash command interaction. I know magic numbers shuldn't be used
+
     ; Handle the interaction
-    ; TODO: I have created the thingy, now for some reason rdi, and rsi are
-    ; getting overwritten and my program's crashing.
+    ; TODO: I have created the thingy, now for some
+    ; reason rdi, and rsi are getting overwritten <-- I'm not dumb, I know I AM
+    ; OVERWRITING THEM but I'm not using them anywhere else, so I don't really
+    ; know why this is crashing the program and my program's crashing.
+
     ; push rdi
     ; push rsi
     ; mov rdi, ping_command_params_name
